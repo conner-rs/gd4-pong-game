@@ -1,1 +1,1 @@
-Simple pon game made in Godot 4
+Simple pong game made in Godot 4
