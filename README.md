@@ -1,1 +1,1 @@
-Simple pong game made in Godot 4.3 .NET
+Simple pong game made in Godot v4.3 .NET
