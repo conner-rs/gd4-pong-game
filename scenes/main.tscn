@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://gcds1elvnp8d"]
+
+[ext_resource type="PackedScene" uid="uid://bo4lldwsasjey" path="res://scenes/player.tscn" id="1_s3dim"]
+[ext_resource type="PackedScene" uid="uid://hg17ig2by77p" path="res://scenes/ball.tscn" id="2_1q8r2"]
+[ext_resource type="Script" path="res://scripts/BallBehavior.cs" id="3_7yktp"]
+
+[node name="Main" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_s3dim")]
+position = Vector2(75, 300)
+
+[node name="ball" parent="." instance=ExtResource("2_1q8r2")]
+position = Vector2(300, 300)
+script = ExtResource("3_7yktp")
